@@ -361,25 +361,41 @@
             <a href="https://www.linkedin.com/in/ghazanfar-ali-b58462355" target="_blank" rel="noopener noreferrer">linkedin.com/in/ghazanfar-ali-b58462355</a>
           </div>
         </div>
-        <form class="contact-form">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required />
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-          </div>
-          <div class="form-checkbox">
-            <input type="checkbox" id="privacy" name="privacy" required />
-            <label for="privacy">I agree to the Privacy Policy and consent to the processing of my data.</label>
-          </div>
-          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
-        </form>
+        <form 
+  class="contact-form"
+  name="contact"
+  method="POST"
+  data-netlify="true"
+>
+  <input type="hidden" name="form-name" value="contact" />
+
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required />
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required />
+  </div>
+
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+  </div>
+
+  <div class="form-checkbox">
+    <input type="checkbox" id="privacy" name="privacy" required />
+    <label for="privacy">
+      I agree to the Privacy Policy and consent to the processing of my data.
+    </label>
+  </div>
+
+  <button type="submit" class="btn btn-primary btn-full">
+    Send Message
+  </button>
+</form>
+
       </div>
     </div>
   </section>
