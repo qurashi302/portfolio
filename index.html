@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ghazanfar Ali - SQA Engineer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+  <meta name="description" content="Portfolio of Ghazanfar Ali, Software Quality Assurance Engineer specializing in automation testing, manual testing, API testing, and mobile/web app testing." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">Tech Stack .</div>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#story">My Story</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Let's Talk</a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Side Drawer Navigation -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="side-drawer" id="sideDrawer">
+    <div class="drawer-header">
+      <div class="drawer-logo">Ghazanfar Ali</div>
+      <button class="drawer-close" id="drawerClose" aria-label="Close menu">&times;</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="#home" class="drawer-link">Home</a>
+      <a href="#story" class="drawer-link">My Story</a>
+      <a href="#expertise" class="drawer-link">Expertise</a>
+      <a href="#experience" class="drawer-link">Experience</a>
+      <a href="#contact" class="drawer-link">Let's Talk</a>
+    </nav>
+  </aside>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <p class="hero-label">Software Quality Assurance Engineer</p>
+        <h1 class="hero-name">Ghazanfar Ali</h1>
+        <h2 class="hero-title">
+          Crafting reliable,<br />
+          bug-free solutions<br />
+          in software & web.
+        </h2>
+        <p class="hero-description">
+          I'm a dedicated SQA Engineer, quality advocate, and digital problem solver. 
+          Turning complex applications into tested, reliable, user-centric experiences.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Start a Project</a>
+          <a href="cv/Ghazanfar_Ali-SQA-Resume.pdf" class="btn btn-secondary" download="Ghazanfar_Ali_CV.pdf" id="downloadCV">Download my CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats">
+    <div class="stats-container">
+      <div class="stat-item">
+        <div class="stat-number">5+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">100+</div>
+        <div class="stat-label">Projects Tested</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Quality Focus</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Story Section -->
+  <section id="story" class="story">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">
+          Every great <span class="highlight">quality engineer</span> begins with an even better <span class="highlight">story</span>.
+        </h2>
+      </div>
+      <div class="story-content">
+        <div class="story-text">
+          <p>
+            Embarking on my journey as a Software Quality Assurance Engineer, I've been the guardian of quality 
+            for web applications, mobile apps, and enterprise systems. My passion lies in ensuring that every 
+            release meets the highest standards of reliability, security, and user experience.
+          </p>
+          <p>
+            Beneath my methodical approach lies a natural curiosity that drives me to explore every edge case, 
+            test every scenario, and think like both a user and a potential attacker. I believe that quality 
+            isn't just about finding bugs—it's about preventing them.
+          </p>
+          <p>
+            Think of me as a quality architect, building robust test frameworks, designing comprehensive test 
+            strategies, and ensuring that every feature works flawlessly across Android, iOS, and web platforms. 
+            I may just be the meticulous engineer your next project needs!
+          </p>
+        </div>
+        <div class="story-code">
+          <div class="code-block">
+            <div class="code-header">
+              <span class="code-dot"></span>
+              <span class="code-dot"></span>
+              <span class="code-dot"></span>
+              <span class="code-title">SQAEngineer.ts</span>
+            </div>
+            <div class="code-content">
+              <pre><code><span class="code-keyword">const</span> <span class="code-var">GhazanfarAli</span> <span class="code-operator">=</span> <span class="code-keyword">await</span> <span class="code-class">SQAEngineer</span>.<span class="code-function">create</span>({
+  <span class="code-property">role</span>: <span class="code-string">"Software Quality Assurance Engineer"</span>,
+  <span class="code-property">expertise</span>: [
+    <span class="code-string">"Automation Testing"</span>,
+    <span class="code-string">"Manual Testing"</span>,
+    <span class="code-string">"API Testing"</span>,
+    <span class="code-string">"Mobile Testing"</span>
+  ],
+  <span class="code-property">passion</span>: <span class="code-number">Infinity</span>
+});
+
+<span class="code-comment">// Compiling...</span>
+<span class="code-output">✅ Quality Engineer Ready</span></code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Timeline -->
+  <section id="experience" class="experience-section">
+    <div class="section-container">
+      <div class="experience-timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker">Present</div>
+          <div class="timeline-content">
+            <h3>SQA Engineer</h3>
+            <p class="timeline-company">Freelance / Full-time</p>
+            <p>Orchestrating quality assurance for web and mobile applications worldwide.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">Previous</div>
+          <div class="timeline-content">
+            <h3>QA Analyst</h3>
+            <p class="timeline-company">Various Companies</p>
+            <p>Building comprehensive test suites and ensuring quality across platforms.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">Early Days</div>
+          <div class="timeline-content">
+            <h3>Growing in QA</h3>
+            <p class="timeline-company">Learning & Development</p>
+            <p>Laying the foundation for a career in software quality assurance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How I Work Section -->
+  <section class="process">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">
+          Your vision. My testing.<br />
+          <span class="highlight">Real results.</span>
+        </h2>
+        <p class="section-subtitle">
+          A streamlined process designed to ensure quality from concept to deployment.
+        </p>
+      </div>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-number">01</div>
+          <h3>Contact</h3>
+          <p>We discuss your application, requirements, and quality goals to understand the vision.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">02</div>
+          <h3>Plan</h3>
+          <p>I create a detailed test strategy and test plan covering all critical scenarios.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">03</div>
+          <h3>Test</h3>
+          <p>Executing comprehensive testing with regular updates and detailed bug reports.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">04</div>
+          <h3>Deploy</h3>
+          <p>Launching your product with confidence, knowing it's been thoroughly tested.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Expertise Section -->
+  <section id="expertise" class="expertise">
+    <div class="section-container">
+      <div class="expertise-grid">
+        <div class="expertise-card">
+          <div class="expertise-icon">🤖</div>
+          <h3>TEST AUTOMATION</h3>
+          <p class="expertise-subtitle">Automated Quality Assurance</p>
+          <p>
+            Building robust automation frameworks that run continuously, catching regressions 
+            before they reach production. Selenium, Cypress, and custom solutions.
+          </p>
+          <div class="expertise-tags">
+            <span>Selenium</span>
+            <span>Cypress</span>
+            <span>TestNG</span>
+            <span>JUnit</span>
+          </div>
+          <a href="#contact" class="expertise-link">Start Project →</a>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">🔍</div>
+          <h3>MANUAL TESTING</h3>
+          <p class="expertise-subtitle">Human-Centered Testing</p>
+          <p>
+            Exploratory testing, usability analysis, and user journey validation. Finding issues 
+            that automation might miss through careful, methodical testing.
+          </p>
+          <div class="expertise-tags">
+            <span>Exploratory</span>
+            <span>Usability</span>
+            <span>Regression</span>
+            <span>UAT</span>
+          </div>
+          <a href="#contact" class="expertise-link">Start Project →</a>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">🔌</div>
+          <h3>API TESTING</h3>
+          <p class="expertise-subtitle">Backend Quality Assurance</p>
+          <p>
+            Validating API endpoints, testing integrations, and ensuring data integrity. 
+            Comprehensive API test suites for REST and GraphQL services.
+          </p>
+          <div class="expertise-tags">
+            <span>Postman</span>
+            <span>REST APIs</span>
+            <span>GraphQL</span>
+            <span>Newman</span>
+          </div>
+          <a href="#contact" class="expertise-link">Start Project →</a>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">📱</div>
+          <h3>MOBILE TESTING</h3>
+          <p class="expertise-subtitle">Android & iOS Quality</p>
+          <p>
+            Comprehensive testing for Android and iOS applications. Device compatibility, 
+            performance testing, and ensuring smooth user experiences across platforms.
+          </p>
+          <div class="expertise-tags">
+            <span>Android</span>
+            <span>iOS</span>
+            <span>Appium</span>
+            <span>Device Testing</span>
+          </div>
+          <a href="#contact" class="expertise-link">Start Project →</a>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">🔒</div>
+          <h3>SECURITY TESTING</h3>
+          <p class="expertise-subtitle">Secure by Design</p>
+          <p>
+            Identifying vulnerabilities, testing authentication flows, and ensuring data protection. 
+            Security-focused testing to protect your users and data.
+          </p>
+          <div class="expertise-tags">
+            <span>OWASP</span>
+            <span>Penetration</span>
+            <span>Vulnerability</span>
+            <span>Security Audit</span>
+          </div>
+          <a href="#contact" class="expertise-link">Start Project →</a>
+        </div>
+        <div class="expertise-card">
+          <div class="expertise-icon">🐞</div>
+          <h3>TEST MANAGEMENT & BUG REPORTING</h3>
+          <p class="expertise-subtitle">Tools & Documentation</p>
+          <p>
+            Managing test cases, tracking bugs, and maintaining comprehensive documentation. 
+            Using industry-standard tools to ensure efficient QA processes and clear communication.
+          </p>
+          <div class="expertise-tags">
+            <span>Jira</span>
+            <span>Confluence</span>
+            <span>ClickUp</span>
+            <span>Notion</span>
+          </div>
+          <a href="#contact" class="expertise-link">Start Project →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tagline Section -->
+  <section class="tagline">
+    <div class="section-container">
+      <h2 class="tagline-text">
+        TEST.<br />
+        QUALITY.<br />
+        EXCELLENCE.
+      </h2>
+      <p class="tagline-subtitle">
+        Three words. Infinite possibilities. Every test case is a step toward something extraordinary.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="section-container">
+      <div class="contact-header">
+        <h2 class="section-title">Let's build something<br />amazing together.</h2>
+        <p class="contact-subtitle">
+          Ready to ensure quality in your next project? I'm currently available for new projects and collaborations.
+        </p>
+        <div class="contact-info">
+          <p><strong>Available for freelance work</strong></p>
+          <p>Response time: &lt; 24 hours</p>
+        </div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-details">
+          <div class="contact-item">
+            <strong>Email</strong>
+            <a href="mailto:aliqurashai333@gmail.com">aliqurashai333@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <strong>Phone</strong>
+            <a href="tel:+923100553813">+92-3100553813</a>
+          </div>
+          <div class="contact-item">
+            <strong>LinkedIn</strong>
+            <a href="https://www.linkedin.com/in/ghazanfar-ali-b58462355" target="_blank" rel="noopener noreferrer">linkedin.com/in/ghazanfar-ali-b58462355</a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div class="form-checkbox">
+            <input type="checkbox" id="privacy" name="privacy" required />
+            <label for="privacy">I agree to the Privacy Policy and consent to the processing of my data.</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-copyright">
+        © <span id="year"></span> All Rights Reserved.<br>
+        <span class="footer-name">Ghazanfar Ali</span>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Drawer navigation
+    const menuToggle = document.getElementById('menuToggle');
+    const sideDrawer = document.getElementById('sideDrawer');
+    const drawerOverlay = document.getElementById('drawerOverlay');
+    const drawerClose = document.getElementById('drawerClose');
+    const drawerLinks = document.querySelectorAll('.drawer-link');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    function openDrawer() {
+      sideDrawer.classList.add('open');
+      drawerOverlay.classList.add('visible');
+      document.body.style.overflow = 'hidden';
+      menuToggle.classList.add('active');
+    }
+
+    function closeDrawer() {
+      sideDrawer.classList.remove('open');
+      drawerOverlay.classList.remove('visible');
+      document.body.style.overflow = '';
+      menuToggle.classList.remove('active');
+    }
+
+    // Open drawer on hamburger click
+    menuToggle.addEventListener('click', openDrawer);
+    
+    // Close drawer on close button or overlay click
+    drawerClose.addEventListener('click', closeDrawer);
+    drawerOverlay.addEventListener('click', closeDrawer);
+
+    // Smooth scroll function
+    function smoothScrollTo(targetId) {
+      const target = document.querySelector(targetId);
+      if (target) {
+        const offsetTop = target.offsetTop - 80; // Account for fixed navbar
+        window.scrollTo({
+          top: offsetTop,
+          behavior: 'smooth'
+        });
+      }
+    }
+
+    // Handle drawer link clicks
+    drawerLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        closeDrawer();
+        setTimeout(() => {
+          smoothScrollTo(targetId);
+        }, 300); // Wait for drawer to close
+      });
+    });
+
+    // Handle regular nav link clicks
+    navLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        smoothScrollTo(targetId);
+      });
+    });
+
+    // Handle expertise links
+    document.querySelectorAll('.expertise-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        smoothScrollTo(targetId);
+      });
+    });
+
+    // Handle CV download with fallback
+    const downloadCV = document.getElementById('downloadCV');
+    if (downloadCV) {
+      downloadCV.addEventListener('click', function(e) {
+        // Try to fetch the file first
+        fetch(this.href, { method: 'HEAD' })
+          .then(response => {
+            if (!response.ok) {
+              e.preventDefault();
+              alert('CV file is being prepared. Please contact me directly at aliqurashai333@gmail.com for my resume.');
+            }
+          })
+          .catch(() => {
+            // If fetch fails, allow the download to proceed (browser will handle 404)
+            console.log('CV download initiated');
+          });
+      });
+    }
+
+    // Intersection Observer for scroll animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, observerOptions);
+
+    // Observe elements for scroll animations
+    document.querySelectorAll('.expertise-card, .timeline-item, .process-step').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
